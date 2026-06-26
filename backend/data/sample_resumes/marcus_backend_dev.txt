@@ -1,0 +1,7 @@
+Marcus Brody
+Senior Backend Developer
+Experience:
+2020 - Present: Staff Software Engineer at FinTech Global. Built high-throughput transaction processing microservices handling 10k QPS. Owned payment gateway integration.
+2017 - 2020: Software Engineer at WebWorks. Developed REST APIs using Django and PostgreSQL.
+Education: Bachelor of Science in Software Engineering, UC Berkeley.
+Skills: Python, FastAPI, PostgreSQL, Redis, Kafka, Docker, Git.

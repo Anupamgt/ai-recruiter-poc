@@ -1,0 +1,7 @@
+Alex Mercer
+Senior Cloud Architect & Systems Engineer
+Experience:
+2018 - Present: Lead Cloud Architect at TechCorp. Spearheaded migration of 50+ microservices to AWS Kubernetes. Managed $2M cloud budget. Mentored team of 12 engineers.
+2015 - 2018: Senior DevOps Engineer at CloudScale. Automated CI/CD pipelines using Terraform and Jenkins.
+Education: Master of Science in Computer Science, Stanford University.
+Skills: AWS, Kubernetes, Terraform, Python, Go, Docker, Distributed Systems.

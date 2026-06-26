@@ -1,0 +1,7 @@
+Dr. Samantha Vance
+Principal AI & Machine Learning Scientist
+Experience:
+2019 - Present: Head of AI at DataMind. Architected LLM RAG pipelines and multimodal recommendation models. Grew AI research division from 2 to 15 researchers.
+2016 - 2019: Senior Data Scientist at DeepLearn Inc. Spearheaded computer vision projects.
+Education: Ph.D. in Machine Learning, MIT. Bachelor of Science in Mathematics.
+Skills: PyTorch, Python, TensorFlow, Transformers, Deep Learning, SQL, LLM Agents.
