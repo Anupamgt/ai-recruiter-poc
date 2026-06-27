@@ -1,0 +1,67 @@
+# Redrob Hackathon — Submission Metadata
+#
+# Stage 3 review uses this file to verify portal metadata and reproduction constraints.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Antigravity AI Recruiter"
+
+primary_contact:
+  name: "Rakesh Kumar"
+  email: "rakesh@example.com"
+  phone: "+91-9999999999"
+
+team_members:
+  - name: "Rakesh Kumar"
+    email: "rakesh@example.com"
+    role: "AI/ML Lead Architect"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/Anupamgt/ai-recruiter-poc"
+
+sandbox_link: "https://github.com/Anupamgt/ai-recruiter-poc#docker-sandbox"
+
+reproduce_command: "python3 hackathon/run_submission.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "MacBook Pro / Docker Sandbox"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.12.1"
+  os: "macOS / Linux"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Gemini"
+  - "Cursor / Copilot"
+
+ai_usage_summary: |
+  Pair-programmed the architecture, Stage A RRF fusion, and SQLite in-memory engine with Google DeepMind Antigravity (Gemini 3.1 Pro). No external API calls or network connections occur during the offline ranking step.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  In-memory SQLite/DuckDB Stage 1 scoring pipeline combining Okapi BM25 text relevance against the Target Role (Senior AI Engineer — Founding Team) with a Multiplicative Availability Envelope (M_behav in [0.1, 1.2]). The availability envelope dynamically penalizes inactive profiles (>180 days), low recruiter response rates (<20%), and long notice periods (>60 days). Furthermore, career history seniority is audited against skill claims to naturally sink keyword-stuffer honeypot candidates. A lightweight offline rule engine synthesizes 1-2 sentence evidence-backed justifications for the top 100 finalists in under 4 minutes on CPU.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
